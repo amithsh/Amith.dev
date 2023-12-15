@@ -46,7 +46,7 @@ const Animate = () => {
     {
       name: "instagram",
       href: "https://www.instagram.com/amiths.h/",
-      icon: "/instagram.png",
+      icon: "/Instagram.png",
     },
     {
       name: "linkdin",
