@@ -68,7 +68,7 @@ const Animate = () => {
           initial="initial"
           animate="animate"
         >
-          <span className="font-bold text-9xl absolute mt-96 py-20  top-0 whitespace-break-spaces">
+          <span className="font-bold text-5xl absolute mt-10 py-20  top-0 whitespace-break-spaces">
             Lets create
           </span>
           <motion.h1 className="text-7xl " variants={textVarients}>
