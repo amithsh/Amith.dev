@@ -88,19 +88,19 @@ const Animate = () => {
           initial="initial"
           animate="animate"
         >
-          {/* {issmalldevice && (
+          {issmalldevice && (
             <span className="font-bold text-3xl sm:text-9xl absolute mt-10 sm:mt-96 py-36  top-0 whitespace-break-spaces sm:overflow-hidden overflow-clip">
               Lets create
             </span>
-          )} */}
-          {/* {!issmalldevice && (
+          )}
+           {!issmalldevice && (
             <Lottie
               animationData={coading}
               loop
               autoplay
               style={{ width: 200, height: 200 }} // Adjust dimensions as needed
             />
-          )} */}
+          )}
 
           <motion.h1 className="text-4xl sm:text-7xl " variants={textVarients}>
             Amith
